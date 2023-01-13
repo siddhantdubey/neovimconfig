@@ -239,6 +239,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/siddhantdubey/.local/share/nvim/site/pack/packer/start/vim-jsx-pretty",
     url = "https://github.com/maxmellon/vim-jsx-pretty"
+  },
+  vimtex = {
+    loaded = true,
+    path = "/home/siddhantdubey/.local/share/nvim/site/pack/packer/start/vimtex",
+    url = "https://github.com/lervag/vimtex"
   }
 }
 

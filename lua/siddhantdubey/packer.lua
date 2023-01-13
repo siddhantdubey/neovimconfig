@@ -84,4 +84,5 @@ return require('packer').startup(function(use)
     }
     use ('mattn/emmet-vim')
     use ('windwp/nvim-ts-autotag')
+    use ('lervag/vimtex')
 end)
