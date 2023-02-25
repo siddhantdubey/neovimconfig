@@ -15,6 +15,13 @@ return require('packer').startup(function(use)
             vim.cmd('colorscheme rose-pine')
         end
     })
+    use({
+        'folke/tokyonight.nvim',
+        as = 'tokyonight',
+        config = function()
+            vim.cmd('colorscheme tokyonight')
+        end
+    })
     use('nvim-treesitter/nvim-treesitter', { run = ':TSUpdate' })
     use('nvim-treesitter/playground')
     use('theprimeagen/harpoon')
@@ -85,4 +92,5 @@ return require('packer').startup(function(use)
     use ('mattn/emmet-vim')
     use ('windwp/nvim-ts-autotag')
     use ('lervag/vimtex')
+    use ('xiyaowong/nvim-transparent')
 end)

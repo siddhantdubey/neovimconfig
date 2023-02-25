@@ -5,7 +5,7 @@ vim.opt.tabstop = 4
 vim.opt.softtabstop = 4
 vim.opt.shiftwidth = 4
 vim.opt.expandtab = true
-
+vim.opt.guicursor = "n-v-c:block-Cursor/lCursor-blinkon0,i-ci:ver25-Cursor/lCursor,r-cr:hor20-Cursor/lCursor"
 vim.opt.smartindent = true
 
 vim.opt.wrap = false
@@ -27,3 +27,6 @@ vim.opt.isfname:append("@-@")
 vim.opt.updatetime = 50
 
 -- vim.opt.colorcolumn = "80"
+vim.wo.wrap = true
+vim.wo.linebreak = true
+vim.wo.list = false
